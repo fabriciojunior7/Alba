@@ -1,4 +1,4 @@
-import os
+import os, random
 
 class Funcao(object):
     def __init__(self):
@@ -7,6 +7,15 @@ class Funcao(object):
         file = open("AI/funcoes/abrir/__init__.txt", "r")
         self.abrir = file.read().split("\n")
         file.close()
+
+        file = open("AI/funcoes/abrir/__respostas__.txt", "r")
+        self.respostas = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/navegador.txt", "r")
+        self.navegador = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/paint.txt", "r")
         self.paint = file.read().split("\n")
         file.close()
@@ -26,8 +35,17 @@ class Funcao(object):
     def executarFuncao(self, texto):
         for e in self.abrir:
             if (e in texto):
+                print(self.respostas[random.randint(0, len(self.respostas)-1)])
+
+                for ee in self.navegador:
+                    if (ee in texto):
+                        print("Abrindo o Navegador...")
+                        os.system("start https://www.google.com.br/")
+                        break
                 for ee in self.paint:
                     if(ee in texto):
+                        print("Abrindo o Paint...")
                         os.system("start mspaint.exe")
+                        break
 
 

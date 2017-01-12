@@ -1,3 +1,5 @@
 -paint-
 -pintar-
 -desenhar-
+-editar-imagem-
+-editar-imagens-

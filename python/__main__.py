@@ -18,6 +18,8 @@ caracteresIgnorar = " !?.,;:(){}[]/*-+_'\"@#$%&"
 while(True):
     texto = ""
     entrada = raw_input(">> ").lower()
+    print("\n")
+
     for l in entrada:
         if(l not in caracteresIgnorar):
             texto += l
