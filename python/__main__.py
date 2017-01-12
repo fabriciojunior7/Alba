@@ -11,7 +11,7 @@ texto = ""
 dialogo = dialogos.Dialogo()
 funcao = funcoes.Funcao()
 
-caracteresIgnorar = "!?.,;:(){}[]/*-+_'\"@#$%&"
+caracteresIgnorar = " !?.,;:(){}[]/*-+_'\"@#$%&"
 
 
 
@@ -21,6 +21,11 @@ while(True):
     for l in entrada:
         if(l not in caracteresIgnorar):
             texto += l
+        elif(l == " "):
+            texto += "-"
+    texto = "-" + texto + "-"
+    print texto
+
 
     if(funcao.checar(texto) != False):
         pass
