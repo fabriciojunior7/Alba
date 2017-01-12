@@ -24,8 +24,6 @@ while(True):
         elif(l == " "):
             texto += "-"
     texto = "-" + texto + "-"
-    print texto
-
 
     if(funcao.checar(texto) != False):
         pass
