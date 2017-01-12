@@ -2,6 +2,8 @@
 -abre-
 -vamos-
 -quero-
+-quiser-
+-queria-
 -navegar-
 -explorar-
 -ver-
@@ -9,6 +11,7 @@
 -vamo-
 -assistir-
 -ir-
+-irmos-
 -colaca-
 -coloque-
 -colocar-
@@ -18,3 +21,4 @@
 -ponha-
 -escrever-
 -fazer-
+-fazermos-
