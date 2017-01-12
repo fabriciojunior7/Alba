@@ -20,12 +20,40 @@ class Funcao(object):
         self.calculadora = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/excel.txt", "r")
+        self.excel = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/github.txt", "r")
+        self.github = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/navegador.txt", "r")
         self.navegador = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/netflix.txt", "r")
+        self.netflix = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/paint.txt", "r")
         self.paint = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/power_point.txt", "r")
+        self.power_point = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/whatsapp.txt", "r")
+        self.whatsapp = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/word_office.txt", "r")
+        self.word_office = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/youtube.txt", "r")
+        self.youtube = file.read().split("\n")
         file.close()
 
 
@@ -36,7 +64,7 @@ class Funcao(object):
         for e in self.chamadas:
             if (e in texto):
                 self.executarFuncao(texto)
-                return (True)
+                return(True)
         else:
             return(False)
 
@@ -48,22 +76,59 @@ class Funcao(object):
                 for ee in self.bloco_de_notas:
                     if(ee in texto):
                         print("Abrindo o Bloco de Notas...")
-                        os.system("start notepad.exe")
+                        os.system(self.bloco_de_notas[0])
                         break
                 for ee in self.calculadora:
                     if(ee in texto):
                         print("Abrindo o Calculadora...")
-                        os.system("start calc.exe")
+                        os.system(self.calculadora[0])
+                        break
+                for ee in self.excel:
+                    if(ee in texto):
+                        print("Abrindo o Excel...")
+                        os.system(self.excel[0])
+                        break
+                for ee in self.github:
+                    if(ee in texto):
+                        print("Abrindo o Github...")
+                        os.system(self.github[0])
                         break
                 for ee in self.navegador:
                     if (ee in texto):
                         print("Abrindo o Navegador...")
-                        os.system("start https://www.google.com.br/")
+                        os.system(self.navegador[0])
+                        break
+                for ee in self.netflix:
+                    if(ee in texto):
+                        print("Abrindo o Netflix...")
+                        os.system(self.netflix[0])
                         break
                 for ee in self.paint:
                     if(ee in texto):
                         print("Abrindo o Paint...")
-                        os.system("start mspaint.exe")
+                        os.system(self.paint[0])
                         break
+                for ee in self.power_point:
+                    if (ee in texto):
+                        print("Abrindo o Power Point Office...")
+                        os.system(self.power_point[0])
+                        break
+                for ee in self.whatsapp:
+                    if (ee in texto):
+                        print("Abrindo o Whatsapp...")
+                        os.system(self.whatsapp[0])
+                        break
+                for ee in self.word_office:
+                    if (ee in texto):
+                        print("Abrindo o Word Office...")
+                        os.system(self.word_office[0])
+                        break
+                for ee in self.youtube:
+                    if (ee in texto):
+                        print("Abrindo o YouTube...")
+                        os.system(self.youtube[0])
+                        break
+
+                break
 
 

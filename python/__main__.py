@@ -13,6 +13,11 @@ funcao = funcoes.Funcao()
 
 caracteresIgnorar = " !?.,;:(){}[]/*-+_'\"@#$%&"
 
+#Temporarios
+emojis = open("AI/dialogos/emojisFelizes.txt", "r")
+emojisLista = emojis.read().split("\n")
+emojis.close()
+
 
 
 while(True):
@@ -32,7 +37,7 @@ while(True):
     elif(dialogo.checar(texto)):
         pass
     else:
-        print("VAZIO")
+        print(emojisLista[random.randint(0, len(emojisLista)-1)])
 
     print("\n")
 

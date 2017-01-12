@@ -1,3 +1,4 @@
+start mspaint.exe
 -paint-
 -pintar-
 -desenhar-

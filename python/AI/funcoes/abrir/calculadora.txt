@@ -1,3 +1,4 @@
+start calc.exe
 -calcular-
 -calculadora-
 -calc-

@@ -6,9 +6,9 @@
 -boa-madrugada-
 -saudacoes-
 -opa-
--goodnight-
--goodevening-
--goodmorning-
--goodafternoon-
+-good-night-
+-good-evening-
+-good-morning-
+-good-afternoon-
 -como-vai-
 -alba-

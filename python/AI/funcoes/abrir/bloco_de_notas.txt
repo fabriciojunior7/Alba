@@ -1,4 +1,6 @@
+start notepad.exe
 -bloco-de-notas-
 -bloco-
 -notas-
 -notepad-
+-rascunho-
