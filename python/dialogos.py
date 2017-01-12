@@ -13,13 +13,16 @@ class Dialogo(object):
         for e in self.saudacoesEntradas:
             self.chamadas.append(e)
 
-    def checar(self, entrada):
-        if(entrada in self.chamadas):
-            self.falar(entrada)
-            return(True)
-        else:
-            return(False)
+    def checar(self, texto):
+        for e in self.chamadas:
+            if (e in texto):
+                self.falar(texto)
+                return (True)
 
-    def falar(self, entrada):
-        if (entrada in self.saudacoesEntradas):
-            print(self.saudacoesSaidas[random.randint(0, len(self.saudacoesSaidas) - 1)])
+        return(False)
+
+    def falar(self, texto):
+        for e in self.saudacoesEntradas:
+            if (e in texto):
+                print(self.saudacoesSaidas[random.randint(0, len(self.saudacoesSaidas) - 1)])
+                break

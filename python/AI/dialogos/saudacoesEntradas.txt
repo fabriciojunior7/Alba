@@ -1,6 +1,14 @@
 oi
 ola
-bom dia
-boa tarde
-boa noite
+bomdia
+boatarde
+boanoite
+boamadrugada
 saudacoes
+opa
+goodnight
+goodevening
+goodmorning
+goodafternoon
+good
+como vai
