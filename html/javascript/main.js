@@ -2,24 +2,16 @@ var frames = 100;
 var cor = 255;
 
 function setup(){
-	//paragrafo = createP(cor);
-	saida = createElement("h1", "");
-	entrada = createInput("");
+	createCanvas(300, 300);
+	select("body").style("margin", "0px");
+	select("body").style("text-align", "center");
+	entrada = createInput()
+	//select("canvas").position(0, 0);
 }
 
 function draw(){
 	frameRate(frames);
-	//paragrafo.html(mouseX + " " + mouseY);
-	saida.html(responder());
-}
-
-function responder(){
-	if(entrada.value() == "oi"){
-		return("Boa Noite!!");
-	}
-	else{
-		return(":-)");
-	}
+	background(0);
 }
 
 

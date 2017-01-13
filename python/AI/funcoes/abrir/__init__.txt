@@ -17,6 +17,10 @@
 -colocar-
 -criar-
 -crie-
+-comece-
+-comecar-
+-execute-
+-executar-
 -poe-
 -ponha-
 -escrever-

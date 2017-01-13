@@ -1,0 +1,2 @@
+start "c:\Python27\" python.exe
+-python-

@@ -1,0 +1,4 @@
+start C:\
+-disco-local-
+-discolocal-
+-c-

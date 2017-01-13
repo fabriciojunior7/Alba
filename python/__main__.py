@@ -1,7 +1,7 @@
 #11/01/2017
 
 import os, random
-import dialogos, funcoes
+import dialogos, funcaoAbrir
 
 os.system("color a")
 os.system("cls")
@@ -9,7 +9,7 @@ os.system("cls")
 texto = ""
 
 dialogo = dialogos.Dialogo()
-funcao = funcoes.Funcao()
+abrir = funcaoAbrir.Abrir()
 
 caracteresIgnorar = " !?.,;:(){}[]/*-+_'\"@#$%&"
 
@@ -32,7 +32,7 @@ while(True):
             texto += "-"
     texto = "-" + texto + "-"
 
-    if(funcao.checar(texto) != False):
+    if(abrir.checar(texto) != False):
         pass
     elif(dialogo.checar(texto)):
         pass

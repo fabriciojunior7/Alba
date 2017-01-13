@@ -1,0 +1,5 @@
+start shell:recyclebinfolder
+-lixeira-
+-excluidos-
+-excluido-
+-lixo-

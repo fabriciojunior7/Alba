@@ -1,0 +1,6 @@
+start https://www.netflix.com/browse
+-netflix-
+-serie-
+-series-
+-filme-
+-filmes-

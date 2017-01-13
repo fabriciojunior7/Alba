@@ -1,0 +1,10 @@
+start "C:\WINDOWS\system32" Taskmgr.exe
+-gerenciador_de_tarefas-
+-gerenciador-
+-memoria-
+-consumo-
+-processos-
+-processador-
+-gerenciar-
+-gdt-
+-gerete-

@@ -1,0 +1,7 @@
+start https://www.google.com.br
+-internet-
+-google-
+-chrome-
+-net-
+-web-
+-www-

@@ -1,0 +1,5 @@
+start "C:\Program Files\Microsoft Office\root\Office16\" POWERPNT.exe
+-slide-
+-power-point-
+-slides-
+-powerpoint-
