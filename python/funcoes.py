@@ -20,12 +20,20 @@ class Funcao(object):
         self.calculadora = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/cmd.txt", "r")
+        self.cmd = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/excel.txt", "r")
         self.excel = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/github.txt", "r")
         self.github = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/media_player.txt", "r")
+        self.media_player = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/navegador.txt", "r")
@@ -36,12 +44,20 @@ class Funcao(object):
         self.netflix = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/notepadPlus.txt", "r")
+        self.notepadPlus = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/paint.txt", "r")
         self.paint = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/power_point.txt", "r")
         self.power_point = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/python.txt", "r")
+        self.python = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/whatsapp.txt", "r")
@@ -83,6 +99,11 @@ class Funcao(object):
                         print("Abrindo o Calculadora...")
                         os.system(self.calculadora[0])
                         break
+                for ee in self.cmd:
+                    if(ee in texto):
+                        print("Abrindo o Prompt de Comando...")
+                        os.system(self.cmd[0])
+                        break
                 for ee in self.excel:
                     if(ee in texto):
                         print("Abrindo o Excel...")
@@ -92,6 +113,11 @@ class Funcao(object):
                     if(ee in texto):
                         print("Abrindo o Github...")
                         os.system(self.github[0])
+                        break
+                for ee in self.media_player:
+                    if(ee in texto):
+                        print("Abrindo o Windows Media Player...")
+                        os.system(self.media_player[0])
                         break
                 for ee in self.navegador:
                     if (ee in texto):
@@ -103,6 +129,11 @@ class Funcao(object):
                         print("Abrindo o Netflix...")
                         os.system(self.netflix[0])
                         break
+                for ee in self.notepadPlus:
+                    if(ee in texto):
+                        print("Abrindo o Notepad++...")
+                        os.system(self.notepadPlus[0])
+                        break
                 for ee in self.paint:
                     if(ee in texto):
                         print("Abrindo o Paint...")
@@ -112,6 +143,11 @@ class Funcao(object):
                     if (ee in texto):
                         print("Abrindo o Power Point Office...")
                         os.system(self.power_point[0])
+                        break
+                for ee in self.python:
+                    if (ee in texto):
+                        print("Abrindo o Python...")
+                        os.system(self.python[0])
                         break
                 for ee in self.whatsapp:
                     if (ee in texto):
