@@ -32,6 +32,10 @@ class Abrir(object):
         self.downloads = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/sites/email.txt", "r")
+        self.email = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/programas/excel.txt", "r")
         self.excel = file.read().split("\n")
         file.close()
@@ -46,6 +50,18 @@ class Abrir(object):
 
         file = open("AI/funcoes/abrir/sites/github.txt", "r")
         self.github = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/sites/gmail.txt", "r")
+        self.gmail = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/sites/habbo_br.txt", "r")
+        self.habbo_br = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/sites/habbo_us.txt", "r")
+        self.habbo_us = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/pastas/lixeira.txt", "r")
@@ -138,6 +154,11 @@ class Abrir(object):
                         print("Abrindo os Downloads...")
                         os.system(self.downloads[0])
                         break
+                for ee in self.email:
+                    if(ee in texto):
+                        print("Abrindo o Hotmail...")
+                        os.system(self.email[0])
+                        break
                 for ee in self.excel:
                     if(ee in texto):
                         print("Abrindo o Excel...")
@@ -157,6 +178,21 @@ class Abrir(object):
                     if(ee in texto):
                         print("Abrindo o Github...")
                         os.system(self.github[0])
+                        break
+                for ee in self.gmail:
+                    if(ee in texto):
+                        print("Abrindo o Gmail...")
+                        os.system(self.gmail[0])
+                        break
+                for ee in self.habbo_br:
+                    if(ee in texto):
+                        print("Abrindo o Habbo Hotel...")
+                        os.system(self.habbo_br[0])
+                        break
+                for ee in self.habbo_us:
+                    if(ee in texto):
+                        print("Abrindo o Habbo Hotel Americano...")
+                        os.system(self.habbo_us[0])
                         break
                 for ee in self.lixeira:
                     if(ee in texto):

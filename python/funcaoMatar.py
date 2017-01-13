@@ -1,9 +1,9 @@
-import sys, os, random
+import os
 
 class Matar(object):
     def __init__(self):
         self.chamadas = []
-        file = open("AI/funcoes/abrir/__init__.txt", "r")
+        file = open("AI/funcoes/matar/__init__.txt", "r")
         self.matar = file.read().split("\n")
         file.close()
 

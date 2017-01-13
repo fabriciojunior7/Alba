@@ -1,0 +1,4 @@
+start https://www.habbo.com.br
+-habbo-
+-habbohotel-
+-habbobr-

@@ -1,0 +1,6 @@
+start https://www.google.com/gmail
+-gmail-
+-google-email-
+-googleemail-
+-email-do-google-
+-email-da-google-

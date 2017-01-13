@@ -1,7 +1,7 @@
 #11/01/2017
 
 import os, random
-import dialogos, funcaoAbrir
+import dialogos, funcaoAbrir, funcaoPesquisarGoogle
 
 os.system("color a")
 os.system("cls")
@@ -10,6 +10,7 @@ texto = ""
 
 dialogo = dialogos.Dialogo()
 abrir = funcaoAbrir.Abrir()
+google = funcaoPesquisarGoogle.PesquisarGoogle()
 
 caracteresIgnorar = " !?.,;:(){}[]/*-+_'\"@#$%&"
 
@@ -32,7 +33,9 @@ while(True):
             texto += "-"
     texto = "-" + texto + "-"
 
-    if(abrir.checar(texto) != False):
+    if(google.checar(texto) != False):
+        pass
+    elif(abrir.checar(texto) != False):
         pass
     elif(dialogo.checar(texto)):
         pass
