@@ -32,6 +32,14 @@ class Abrir(object):
         self.downloads = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/programas/dropbox.txt", "r")
+        self.dropbox = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/programas/editor_do_registro.txt", "r")
+        self.editor_do_registro = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/sites/email.txt", "r")
         self.email = file.read().split("\n")
         file.close()
@@ -64,12 +72,28 @@ class Abrir(object):
         self.habbo_us = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/pastas/imagens.txt", "r")
+        self.imagens = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/pastas/lixeira.txt", "r")
         self.lixeira = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/programas/lupa.txt", "r")
+        self.lupa = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/programas/media_player.txt", "r")
         self.media_player = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/pastas/meus_documentos.txt", "r")
+        self.meus_documentos = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/programas/narrador.txt", "r")
+        self.narrador = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/sites/navegador.txt", "r")
@@ -84,6 +108,10 @@ class Abrir(object):
         self.notepadPlus = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/programas/painel_de_controle.txt", "r")
+        self.painel_de_controle = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/programas/paint.txt", "r")
         self.paint = file.read().split("\n")
         file.close()
@@ -96,8 +124,20 @@ class Abrir(object):
         self.power_point = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/programas/pycharm.txt", "r")
+        self.pycharm = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/programas/python.txt", "r")
         self.python = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/sites/tradutor.txt", "r")
+        self.tradutor = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/programas/teclado_virtual.txt", "r")
+        self.teclado_virtual = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/sites/whatsapp.txt", "r")
@@ -106,6 +146,10 @@ class Abrir(object):
 
         file = open("AI/funcoes/abrir/programas/word_office.txt", "r")
         self.word_office = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/programas/wordpad.txt", "r")
+        self.wordpad = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/sites/youtube.txt", "r")
@@ -154,6 +198,16 @@ class Abrir(object):
                         print("Abrindo os Downloads...")
                         os.system(self.downloads[0])
                         break
+                for ee in self.dropbox:
+                    if(ee in texto):
+                        print("Abrindo o Dropbox...")
+                        os.system(self.dropbox[0])
+                        break
+                for ee in self.editor_do_registro:
+                    if(ee in texto):
+                        print("Abrindo o Editor do Registro...")
+                        os.system(self.editor_do_registro[0])
+                        break
                 for ee in self.email:
                     if(ee in texto):
                         print("Abrindo o Hotmail...")
@@ -194,15 +248,35 @@ class Abrir(object):
                         print("Abrindo o Habbo Hotel Americano...")
                         os.system(self.habbo_us[0])
                         break
+                for ee in self.imagens:
+                    if(ee in texto):
+                        print("Abrindo as Suas Imagens...")
+                        os.system(self.imagens[0])
+                        break
                 for ee in self.lixeira:
                     if(ee in texto):
                         print("Abrindo a Lixeira...")
                         os.system(self.lixeira[0])
                         break
+                for ee in self.lupa:
+                    if(ee in texto):
+                        print("Abrindo a Lupa...")
+                        os.system(self.lupa[0])
+                        break
                 for ee in self.media_player:
                     if(ee in texto):
                         print("Abrindo o Windows Media Player...")
                         os.system(self.media_player[0])
+                        break
+                for ee in self.meus_documentos:
+                    if(ee in texto):
+                        print("Abrindo os Seus Documentos...")
+                        os.system(self.meus_documentos[0])
+                        break
+                for ee in self.narrador:
+                    if (ee in texto):
+                        print("Abrindo o Narrador...")
+                        os.system(self.narrador[0])
                         break
                 for ee in self.navegador:
                     if (ee in texto):
@@ -219,6 +293,11 @@ class Abrir(object):
                         print("Abrindo o Notepad++...")
                         os.system(self.notepadPlus[0])
                         break
+                for ee in self.painel_de_controle:
+                    if(ee in texto):
+                        print("Abrindo o Painel de Controle...")
+                        os.system(self.painel_de_controle[0])
+                        break
                 for ee in self.paint:
                     if(ee in texto):
                         print("Abrindo o Paint...")
@@ -234,10 +313,25 @@ class Abrir(object):
                         print("Abrindo o Power Point Office...")
                         os.system(self.power_point[0])
                         break
+                for ee in self.pycharm:
+                    if (ee in texto):
+                        print("Abrindo o Pycharm...")
+                        os.system(self.pycharm[0])
+                        break
                 for ee in self.python:
                     if (ee in texto):
                         print("Abrindo o Python...")
                         os.system(self.python[0])
+                        break
+                for ee in self.tradutor:
+                    if (ee in texto):
+                        print("Abrindo o Google Tradutor...")
+                        os.system(self.tradutor[0])
+                        break
+                for ee in self.teclado_virtual:
+                    if (ee in texto):
+                        print("Abrindo o Teclado Virtual...")
+                        os.system(self.teclado_virtual[0])
                         break
                 for ee in self.whatsapp:
                     if (ee in texto):
@@ -248,6 +342,11 @@ class Abrir(object):
                     if (ee in texto):
                         print("Abrindo o Word Office...")
                         os.system(self.word_office[0])
+                        break
+                for ee in self.wordpad:
+                    if (ee in texto):
+                        print("Abrindo o WordPad...")
+                        os.system(self.wordpad[0])
                         break
                 for ee in self.youtube:
                     if (ee in texto):

@@ -1,4 +1,4 @@
-start "C:\WINDOWS\system32" Taskmgr.exe
+start Taskmgr.exe
 -gerenciador_de_tarefas-
 -gerenciador-
 -memoria-

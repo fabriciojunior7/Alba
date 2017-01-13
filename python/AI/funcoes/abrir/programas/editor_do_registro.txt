@@ -1,0 +1,6 @@
+start regedt32.exe
+-editor-de-registro-
+-editor-do-registro-
+-reged-
+-reged32-
+-gedit-

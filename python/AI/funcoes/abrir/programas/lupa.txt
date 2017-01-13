@@ -1,0 +1,5 @@
+start Magnify
+-lupa-
+-zoom-
+-ampliar-
+-amplie-

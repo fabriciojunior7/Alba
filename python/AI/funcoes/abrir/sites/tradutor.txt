@@ -1,0 +1,5 @@
+start https://translate.google.com.br
+-tradutor-
+-traduzir-
+-traduza-
+-translate-

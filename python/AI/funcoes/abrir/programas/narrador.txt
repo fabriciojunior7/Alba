@@ -1,0 +1,5 @@
+start Narrator.exe
+-narrador-
+-ler-
+-leia-
+-fale-

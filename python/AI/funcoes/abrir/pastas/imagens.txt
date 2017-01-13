@@ -1,0 +1,5 @@
+start C:\Users\fabri\Pictures
+-imagens-
+-fotos-
+-imagem-
+-foto-

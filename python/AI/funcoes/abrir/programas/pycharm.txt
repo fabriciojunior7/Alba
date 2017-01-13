@@ -1,0 +1,3 @@
+start C:\"Program Files"\JetBrains\"PyCharm Community Edition 2016.3.2"\bin\pycharm.exe
+-pycharm-
+-charm-
