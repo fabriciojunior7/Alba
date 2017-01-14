@@ -24,6 +24,10 @@ class Abrir(object):
         self.cmd = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/sites/cube_timer.txt", "r")
+        self.cube_timer = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/pastas/disco_local.txt", "r")
         self.disco_local = file.read().split("\n")
         file.close()
@@ -50,6 +54,10 @@ class Abrir(object):
 
         file = open("AI/funcoes/abrir/sites/facebook.txt", "r")
         self.facebook = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/programas/fsx.txt", "r")
+        self.fsx = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/programas/gerenciador_de_tarefas.txt", "r")
@@ -86,6 +94,10 @@ class Abrir(object):
 
         file = open("AI/funcoes/abrir/programas/media_player.txt", "r")
         self.media_player = file.read().split("\n")
+        file.close()
+
+        file = open("AI/funcoes/abrir/sites/mercado_livre.txt", "r")
+        self.mercado_livre = file.read().split("\n")
         file.close()
 
         file = open("AI/funcoes/abrir/pastas/meus_documentos.txt", "r")
@@ -140,6 +152,10 @@ class Abrir(object):
         self.teclado_virtual = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/programas/utorrent.txt", "r")
+        self.utorrent = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/sites/whatsapp.txt", "r")
         self.whatsapp = file.read().split("\n")
         file.close()
@@ -188,6 +204,11 @@ class Abrir(object):
                         print("Abrindo o Prompt de Comando...")
                         os.system(self.cmd[0])
                         break
+                for ee in self.cube_timer:
+                    if(ee in texto):
+                        print("Abrindo o CubeTimer...")
+                        os.system(self.cube_timer[0])
+                        break
                 for ee in self.disco_local:
                     if(ee in texto):
                         print("Abrindo os Disco C:\...")
@@ -222,6 +243,11 @@ class Abrir(object):
                     if(ee in texto):
                         print("Abrindo o Facebook...")
                         os.system(self.facebook[0])
+                        break
+                for ee in self.fsx:
+                    if(ee in texto):
+                        print("Abrindo o Flight Simulator X...")
+                        os.system(self.fsx[0])
                         break
                 for ee in self.gerenciador_de_tarefas:
                     if(ee in texto):
@@ -267,6 +293,11 @@ class Abrir(object):
                     if(ee in texto):
                         print("Abrindo o Windows Media Player...")
                         os.system(self.media_player[0])
+                        break
+                for ee in self.mercado_livre:
+                    if(ee in texto):
+                        print("Abrindo o Mercado Livre...")
+                        os.system(self.mercado_livre[0])
                         break
                 for ee in self.meus_documentos:
                     if(ee in texto):
@@ -332,6 +363,11 @@ class Abrir(object):
                     if (ee in texto):
                         print("Abrindo o Teclado Virtual...")
                         os.system(self.teclado_virtual[0])
+                        break
+                for ee in self.utorrent:
+                    if (ee in texto):
+                        print("Abrindo o uTorrent...")
+                        os.system(self.utorrent[0])
                         break
                 for ee in self.whatsapp:
                     if (ee in texto):

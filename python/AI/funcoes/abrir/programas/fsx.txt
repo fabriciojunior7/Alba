@@ -1,0 +1,19 @@
+start C:\"Program Files"\"Microsoft Games"\"Microsoft Flight Simulator X"\fsx.exe
+-voar-
+-fsx-
+-flight-
+-simulator-
+-simulador-
+-aviao-
+-avioes-
+-jato-
+-jatos-
+-caca-
+-cacas-
+-helicoptero-
+-helicopteros-
+-cessna-
+-boeing-
+-airbus-
+-737-
+-747-

@@ -1,0 +1,4 @@
+start http://www.mercadolivre.com.br/
+-mercado-
+-comprar-
+-compras-

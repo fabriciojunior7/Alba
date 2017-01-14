@@ -1,0 +1,4 @@
+start C:\Users\fabri\AppData\Roaming\uTorrent\uTorrent.exe
+-utorrent-
+-torrent-
+-torrents-

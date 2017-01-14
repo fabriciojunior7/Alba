@@ -1,12 +1,15 @@
 start C:\Users\fabri\Dropbox
--pasta-dropbox-
--pasta-drop-
--pastadropbox-
 -pastadrop-
--pasta-do-dropbox-
--pasta-do-drop-
+-pastadropbox-
+-pastabox-
 -pdrop-
--p-drop-
--p-do-drop-
--p-dropbox-
--p-do-dropbox-
+-pbox-
+-pastadodropbox-
+-pastadodrop-
+-pastadobox-
+-pastabox-
+-dropp-
+-boxp-
+-dropboxp-
+-droppasta-
+-boxpasta-
