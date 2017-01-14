@@ -1,0 +1,10 @@
+start https://maps.google.com.br
+-mapas-
+-mapa-
+-gps-
+-map-
+-maps-
+-gmaps-
+-gmap-
+-gmapas-
+-gmapa-

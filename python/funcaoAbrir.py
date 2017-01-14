@@ -72,6 +72,10 @@ class Abrir(object):
         self.gmail = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/sites/google_maps.txt", "r")
+        self.google_maps = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/sites/habbo_br.txt", "r")
         self.habbo_br = file.read().split("\n")
         file.close()
@@ -263,6 +267,11 @@ class Abrir(object):
                     if(ee in texto):
                         print("Abrindo o Gmail...")
                         os.system(self.gmail[0])
+                        break
+                for ee in self.google_maps:
+                    if(ee in texto):
+                        print("Abrindo o Google Mapas...")
+                        os.system(self.google_maps[0])
                         break
                 for ee in self.habbo_br:
                     if(ee in texto):
