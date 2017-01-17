@@ -1,0 +1,3 @@
+start http://partagecampina.com.br/site/cinema
+-cinema-
+-cine-

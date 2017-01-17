@@ -20,6 +20,10 @@ class Abrir(object):
         self.calculadora = file.read().split("\n")
         file.close()
 
+        file = open("AI/funcoes/abrir/sites/cinema_partage.txt", "r")
+        self.cinema_partage = file.read().split("\n")
+        file.close()
+
         file = open("AI/funcoes/abrir/programas/cmd.txt", "r")
         self.cmd = file.read().split("\n")
         file.close()
@@ -202,6 +206,11 @@ class Abrir(object):
                     if(ee in texto):
                         print("Abrindo o Calculadora...")
                         os.system(self.calculadora[0])
+                        break
+                for ee in self.cinema_partage:
+                    if(ee in texto):
+                        print("Abrindo o Cinema do Partage...")
+                        os.system(self.cinema_partage[0])
                         break
                 for ee in self.cmd:
                     if(ee in texto):
