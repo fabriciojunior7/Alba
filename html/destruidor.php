@@ -10,9 +10,9 @@
 		$nick = $_SESSION['nick'];
 			
 		date_default_timezone_set("America/Bahia");
-		$data = date("H:i:s - d/m/Y");
+		$data_agora = date("H:i:s - d/m/Y");
 		
-		$consulta_logs = "INSERT INTO logins(tipo, nick, data) VALUES('Saida', '$nick', '$data')";
+		$consulta_logs = "INSERT INTO logins(tipo, nick, data) VALUES('Saida', '$nick', '$data_agora')";
 		mysqli_query($conexao, $consulta_logs);
 		
 		

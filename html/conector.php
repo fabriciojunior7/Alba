@@ -13,7 +13,7 @@
 			$senha = $_POST['senha'];
 			
 			date_default_timezone_set("America/Bahia");
-			$data = date("H:i:s - d/m/Y");
+			$data_agora = date("H:i:s - d/m/Y");
 			
 			$consulta = "SELECT nick, senha FROM usuarios";
 			$dados = mysqli_query($conexao, $consulta);
@@ -27,7 +27,7 @@
 					$_SESSION['nick'] = $nick;
 					$_SESSION['senha'] = $senha;
 					
-					$consulta_logs = "INSERT INTO logins(tipo, nick, data) VALUES('Entrada', '$nick', '$data')";
+					$consulta_logs = "INSERT INTO logins(tipo, nick, data) VALUES('Entrada', '$nick', '$data_agora')";
 					mysqli_query($conexao, $consulta_logs);
 					
 					header("location:alba.php");
