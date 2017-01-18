@@ -1,5 +1,6 @@
 -abrir-
 -abre-
+-abra-
 -vamos-
 -quero-
 -quiser-

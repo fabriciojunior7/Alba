@@ -7,7 +7,7 @@ Inicio: 16/01/2017
 
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="estilo-index.css">
+		<link rel="stylesheet" type="text/css" href="estilo_index.css">
 		<title>Alba</title>
 		<?php
 			session_start();
