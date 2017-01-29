@@ -1,3 +1,4 @@
 start https://www.hotmail.com
 -email-
 -hotmail-
+-mail-

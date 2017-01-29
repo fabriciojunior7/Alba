@@ -23,7 +23,7 @@
 				$dados = mysqli_query($conexao, $consulta_logs);
 			
 				while($saida = mysqli_fetch_array($dados)){
-					echo "<h4>$saida[nick], $saida[tipo] - ($saida[data])</h4>";
+					echo "<h2>$saida[nick], $saida[tipo] - ($saida[data])</h2>";
 				}
 				
 			}

@@ -1,0 +1,115 @@
+body{
+	background-color: rgb(210, 210, 210);
+	margin: 0px;
+}
+
+#barra_top{
+	width: 100%;
+	height: 130px;
+	position: fixed;
+	border-bottom: 1px solid black;
+	background-color: white;
+	z-index: 100;
+}
+
+
+@font-face{
+	font-family: Lucida Calligraphy;
+	src: url("fontes/LCALLIG.TTF");
+}
+
+#botao_apps{
+	position: absolute;
+	right: 240px;
+	top: 16px;
+	
+	border-radius: 15px;
+	border: 1px solid black;
+	width: 200px;
+	height: 100px;
+	
+	font-family: Lucida Calligraphy;
+	font-size: 50px;
+	
+	background-color: white;
+	padding: 0px;
+}
+
+#botao_sair{
+	position:absolute;
+	right: 20px;
+	top: 16px;
+	
+	border-radius: 15px;
+	border: 1px solid black;
+	width: 200px;
+	height: 100px;
+	
+	font-family: Lucida Calligraphy;
+	font-size: 50px;
+	
+	background-color: white;
+	padding: 0px;
+}
+
+#nome{
+	position: absolute;
+	top: -115px;
+	left: 15px;
+	
+	/*font-family: Lucida Calligraphy;*/
+	font-family: Lucida Calligraphy;
+	font-size: 110px;
+}
+
+#barra_apps{
+	display: none;
+	position: absolute;
+	/*width: 830px;*/
+	max-width: 626px;
+	width: auto;
+	height: auto;
+	top: 140px;
+	left: 325px;
+	background-color: white;
+	text-align: center;
+	padding: 0px;
+	/*border: 1px solid black;*/
+	border-radius: 30px;
+}
+
+.icones_apps{
+	display: line;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	padding: 5px;
+	
+	border: 3px solid rgb(210, 210, 210);
+	border-radius: 30px;
+	
+	background-color: white;
+}
+
+#icone_mobile{
+	border-color: rgb(186, 186, 186);
+}
+
+#icone_rosa{
+	border-color: red;
+}
+
+#icone_closet{
+	border-color: rgb(51, 153, 255);
+}
+
+#icone_chave{
+	border-color: rgb(232, 183, 39);
+}
+
+
+
+
+
+
+

@@ -1,24 +1,21 @@
-var frames = 100;
-var cor = 255;
+var ver;
 
 function setup(){
-	createCanvas(300, 300);
-	select("body").style("margin", "0px");
-	select("body").style("text-align", "center");
-	entrada = createInput()
-	//select("canvas").position(0, 0);
+	ver = false;
 }
 
 function draw(){
-	frameRate(frames);
-	background(0);
+	
 }
 
-
-
-
-
-
-
-
-
+function abrir_apps(){
+	if(ver == false){
+		ver = true;
+		select("#barra_apps").style("display", "block");
+	}
+	else if(ver == true){
+		ver = false;
+		select("#barra_apps").style("display", "none");
+	}
+	print(ver);
+}

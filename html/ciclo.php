@@ -2,7 +2,7 @@
 	
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="design/estilo_alba.css">
+		<link rel="stylesheet" type="text/css" href="design/estilo_ciclos.css">
 		<title>Alba</title>
 		<?php
 			session_start();
@@ -37,12 +37,12 @@
 			<script src='javascript/main.js'></script>
 			
 			<div id='barra_top'>
-				<p id='nome'><font color=$cor>$nome</font></p>
+				<p id='nome_app'>Ciclos</p><image src='design/imagens/rosa.png' class='icones_tops' id='icone_rosa'>
 				
 				
 				<button id='botao_apps' onclick='abrir_apps()'>Apps</button>
 				<div id='barra_apps'>
-					<a href=''><image src='design/imagens/mobile.png' class='icones_apps' id='icone_mobile'></a>
+					<a href='index.php'><image src='design/imagens/mobile.png' class='icones_apps' id='icone_mobile'></a>
 					<a href='ciclo.php'><image src='design/imagens/rosa.png' class='icones_apps' id='icone_rosa'></a>
 					<a href=''><image src='design/imagens/closet.png' class='icones_apps' id='icone_closet'></a>
 					<a href=''><image src='design/imagens/breve2.png' class='icones_apps'></a>
@@ -53,6 +53,18 @@
 					<a href='logins.php'><image src='design/imagens/chave.png' class='icones_apps' id='icone_chave'></a>
 				</div>
 				<a href='destruidor.php'><button id='botao_sair'>Sair</button></a>
+			</div>
+			
+			<div class='postagem' id='calendario'>
+				
+			</div>
+			
+			<div class='postagem' id='hoje'>
+				
+			</div>
+			
+			<div class='postagem' id='estatisticas'>
+				
 			</div>
 			
 			
