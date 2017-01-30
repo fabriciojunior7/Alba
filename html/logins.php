@@ -25,6 +25,8 @@
 				while($saida = mysqli_fetch_array($dados)){
 					echo "<h2>$saida[nick], $saida[tipo] - ($saida[data])</h2>";
 				}
+				mysqli_close($conexao);
+				header("refresh:1");
 				
 			}
 			else{

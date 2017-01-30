@@ -58,12 +58,12 @@ body{
 
 #nome_app{
 	position: absolute;
-	top: -135px;
+	top: -120px;
 	left: 0px;
 	
 	font-family: Edwardian Script ITC;
-	font-size: 130px;
-	color: red;
+	font-size: 120px;
+	color: rgb(255, 102, 153);
 }
 
 #barra_apps{
@@ -100,10 +100,10 @@ body{
 	width: 70px;
 	height: 70px;
 	margin-top: 30px;
-	margin-left: 270px;
+	margin-left: 440px;
 	padding: 5px;
 	
-	border: 3px solid rgb(210, 210, 210);
+	border: 3px solid rgb(255, 102, 153);
 	border-radius: 30px;
 	
 	background-color: white;
@@ -125,36 +125,66 @@ body{
 	border-color: rgb(232, 183, 39);
 }
 
-.postagem{
+#recadinho{
 	border: 0px solid black;
 	position: relative;
 	top: 160px;
 	left: 50%;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	margin-left: -450px;
-	margin-bottom: 30px;
+	margin-bottom: 130px;
 	border-radius: 30px;
 	background-color: white;
-}
-
-#calendario{
+	
 	width: 900px;
-	height: 800px;
+	height: 2000px;
 	
 	text-align: center;
 	font-size: 50px;
 }
 
-#hoje{
-	width: 900px;
-	height: 400px;
+.formulario_recadinho{
+	position: relative;
+	width: 800px;
+	height: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	font-size: 45px;
+	text-align: center;
+	
+	border: 1px solid black;
+	border-radius: 15px;
 }
 
-#estatisticas{
-	width: 900px;
-	height: 500px;
-	margin-bottom: 120px;
+#texto_recadinho{
+	position: relative;
+	width: 800px;
+	height: 1400px;
+	padding: 10px;
+	
+	border: 1px solid black;
+	border-radius: 15px;
+	
+	font-size: 40px;
 }
 
+#botao_postar{
+	position: relative;
+	
+	width: 300px;
+	height: 150px;
+	border: 2px solid black;
+	border-radius: 15px;
+	
+	font-family: Lucida Calligraphy;
+	font-size: 75px;
+	text-align: center;
+	
+	background-color: white;
+	padding: 0px;
+}
 
 
 

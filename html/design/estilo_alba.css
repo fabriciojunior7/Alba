@@ -18,6 +18,16 @@ body{
 	src: url("fontes/LCALLIG.TTF");
 }
 
+@font-face{
+	font-family: Tempus Sans ITC;
+	src: url("fontes/TEMPSITC.TTF");
+}
+
+@font-face{
+	font-family: Agency FB;
+	src: url("fontes/AGENCYR.TTF");
+}
+
 #botao_apps{
 	position: absolute;
 	right: 240px;
@@ -66,15 +76,15 @@ body{
 	display: none;
 	position: absolute;
 	/*width: 830px;*/
-	max-width: 626px;
+	max-width: 608px;
 	width: auto;
 	height: auto;
 	top: 140px;
-	left: 325px;
+	left: 335px;
 	background-color: white;
 	text-align: center;
 	padding: 0px;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	border-radius: 30px;
 }
 
@@ -85,7 +95,7 @@ body{
 	margin: 20px;
 	padding: 5px;
 	
-	border: 3px solid rgb(210, 210, 210);
+	/*border: 3px solid rgb(210, 210, 210);*/
 	border-radius: 30px;
 	
 	background-color: white;
@@ -103,10 +113,77 @@ body{
 	border-color: rgb(51, 153, 255);
 }
 
+#icone_recadinho{
+	border-color: rgb(255, 255, 255);
+}
+
 #icone_chave{
 	border-color: rgb(232, 183, 39);
 }
 
+#postagens{
+	/*border: 0px solid white;*/
+	position: relative;
+	top: 160px;
+	left: 50%;
+	margin-bottom: -50px;
+	margin-left: -450px;
+	/*padding-top: 10px;*/
+	/*padding-bottom: 10px;*/
+	border-radius: 30px;
+	background-color: white;
+	
+	width: 900px;
+	height: auto;
+	max-width: 900px;
+	
+	text-align: center;
+}
+
+#titulo_postagem{
+	position: relative;
+	top: 15px;
+	font-family: Tempus Sans ITC;
+	font-size: 80px;
+	color: rgb(90, 90, 90);
+}
+
+#subtitulo_postagem{
+	position: relative;
+	font-family: Tempus Sans ITC;
+	font-size: 35px;
+	color: rgb(180, 180, 180);
+	top: -60px;
+}
+
+#separador_postagem{
+	position: relative;
+	top: -80px;
+}
+/*
+#legenda_postagem{
+	position: relative;
+	font-family: Agency FB;
+	font-size: 50px;
+	top: -60px;
+}
+*/
+#legenda_postagem{
+	position: relative;
+	font-family: Tempus Sans ITC;
+	font-size: 50px;
+	top: -80px;
+	left: 55px;
+	max-width: 800px;
+}
+
+#data_postagem{
+	position: relative;
+	font-family: Tempus Sans ITC;
+	font-size: 25px;
+	color: rgb(100, 100, 100);
+	top: 0px;
+}
 
 
 
